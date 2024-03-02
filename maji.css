@@ -413,30 +413,66 @@ li{
 }
 
 /*activity*/
-.bl_Activity{
+.bl_activity{
   max-width: 100%;
 }
-.bl_Activity_body{
-  max-width: 100%;
-}
-.bl_Activity_flex{
-  display: flex;
-}
-.bl_Activity_imgWrapper {
-  width: 60%;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-  position: relative;
-  flex: 2 10%;
-}
-.bl_vision_imgWrapper > img {
+.bl_Acard{
   width: 100%;
-  height: auto;
 }
-.bl_Activity_r {
-  margin: 0 0 0 20px;
-  padding: 0;
-  flex: 3 10%;
+.bl_activity_body{
+  background-color: #FFFF;
+  max-width: 100%;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 100px;
 }
-  
+.bl_activity_ttl{
+  padding-top: 20px;
+  margin: 0;
+}
+.bl_activityttl_add{
+  margin: 0;
+}
+.bl_Acard_inner{
+  margin: 0;
+}
+.bl_activity_subttl{
+  margin-top: 10px;
+  padding: 5px;
+}
+.bl_Acard_inner{
+  background-color: #FFFE;
+  padding: 30px 10px 20px 30px;
+  height: 500px;
+}
+.bl_activity_imgWrapper {
+  max-width: 100%;
+}
+.bl_activity_imgWrapper > img {
+  border-radius: 30px;
+}
+.bl_activity_subttl{
+  margin-top: 10px;
+  padding: 5px;
+}
+.bl_activity_txt{
+  margin-top: 10px;
+  padding: 5px;
+}
+.bl_AcardUnit {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bl_AcardUnit.bl_AcardUnit__col2 {
+  margin-bottom: 10px;
+}
+.bl_AcardUnit__col2 > .bl_Acard {
+  width: 48%;
+  margin-bottom: 30px;
+}
+.bl_AcardUnit__col2 > .bl_Acard:nth-of-type(2n) {
+  margin-right: 4%;
+}
+li{
+  list-style: none;
+}
