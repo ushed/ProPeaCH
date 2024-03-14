@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "utf-8";/*ver1.0.2 */
 @font-face {
   font-family: "line";
   src: url("./LINESeedJP_OTF_Bd.woff") format("woff");
@@ -8,7 +8,6 @@
 }
 /*pagecode*/
 .ly_pagecode{
-  margin: 10% 15% 5% 15%;
   padding-top: 10%;
 }
 .bl_pagecode{
@@ -18,7 +17,7 @@
 max-width: 100%;
 }
 .bl_pagecode_ttl{
-  background-color: #fff;
+  background-color: #ffffff;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +27,7 @@ max-width: 100%;
 }
 .bl_PC{
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid;
   height: 50vh;
 }
@@ -64,27 +63,7 @@ max-width: 100%;
 li{
   list-style: none;
 }
-/*========= scroll ===============*/
-.bl_all {
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
-  -ms-overflow-style: none;
-  /*Firefoxへの対応*/
-  scrollbar-width: none;
-}
-/*Google Chrome、Safariへの対応*/
-.bl_all::-webkit-scrollbar{
-  display: none;
-}
-.bl_all_p {
-scroll-snap-align: start;
-height: 100vh;
-}
-.bl_all_p2 {
-  scroll-snap-align: start;
-}
+
 /*========= スクロールダウンのためのCSS ===============*/
 /*スクロールダウン全体の場所*/
 .bl_allp_scroll{
@@ -194,12 +173,12 @@ a{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #D9DCDE;
+  background-color: #fafafa;
 }
 /* 大きいスクリーン用 */
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .bl_homepage_wrapper {
-      max-width: 1200px;
+      max-width: 1440px;
   }
 }
 
@@ -230,7 +209,7 @@ a{
   height: 200px;
   padding:20px;
   background:#333;
-  color:#fff;
+  color:#ffffff;
 }
 .el_footer{
   display: block;
@@ -262,7 +241,7 @@ a{
   padding-bottom: 0;
 }
 .bl_uscard2_inner{
-  background-color: #FFFE;
+  background-color: #FFFFff;
   padding: 30px 10px 20px 30px;
   border-radius: 30px;
 }
@@ -294,9 +273,6 @@ a{
   width: 70%;
   margin-bottom: 30px;
 }
-.bl_uscardUnit__col2 > .bl_uscard:nth-of-type(2n) {
-  margin-right: 0;
-}
 li{
   list-style: none;
 }
@@ -310,7 +286,7 @@ li{
 }
 .bl_Fcard{
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 30px;
 }
 .bl_Fild_body{
@@ -386,7 +362,7 @@ li{
   display: inline-block;
   width: 300px;
   height: 400px;
-  background-color: white;
+  background-color: #FFFFff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 20px;
   border-radius: 30px;
@@ -420,7 +396,7 @@ li{
   width: 100%;
 }
 .bl_activity_body{
-  background-color: #FFFF;
+  background-color: #FFFFff;
   max-width: 100%;
   border-radius: 30px;
   text-align: center;
@@ -441,7 +417,7 @@ li{
   padding: 5px;
 }
 .bl_Acard_inner{
-  background-color: #FFFE;
+  background-color: #FFFfff;
   padding: 30px 10px 20px 30px;
   height: 500px;
 }
@@ -472,6 +448,64 @@ li{
 }
 .bl_AcardUnit__col2 > .bl_Acard:nth-of-type(2n) {
   margin-right: 4%;
+}
+li{
+  list-style: none;
+}
+
+/*member*/
+.bl_member{
+  max-width: 100%;
+}
+.bl_photocard{
+  width: 100%;
+}
+.bl_member_body{
+  max-width: 100%;
+}
+.bl_photocard_inner{
+  margin: 0;
+}
+.bl_member_imgWrapper {
+  max-width: 100%;
+}
+.bl_member_imgWrapper > img {
+  border-radius: 30px;
+}
+.bl_member_ttl{
+  padding-top: 20px;
+  margin: 0;
+}
+.bl_member_add{
+  margin: 0;
+}
+.bl_txtcard_inner{
+  margin-top: 30px;
+  background-color: #FFFfff;
+  padding: 45px 10px 45px 10px;
+  border-radius: 30px;
+}
+.bl_aboutus_subttl{
+  margin-top: 10px;
+  padding: 5px;
+}
+.el_membermore{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+.bl_membercardUnit {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bl_membercardUnit.bl_membercardUnit__col2 {
+  margin-bottom: 10px;
+}
+.bl_membercardUnit__col2 > .bl_photocard {
+  width: 70%;
+}
+.bl_membercardUnit__col2 > .bl_txtcard {
+  width: 30%;
 }
 li{
   list-style: none;
