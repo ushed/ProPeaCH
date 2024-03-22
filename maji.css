@@ -1,4 +1,4 @@
-@charset "utf-8";/*ver1.0.3 */
+@charset "utf-8";/*ver1.0.4 */
 @font-face {
   font-family: "line";
   src: url("./LINESeedJP_OTF_Bd.woff") format("woff");
@@ -330,7 +330,10 @@ li{
 
 /*works*/
 .bl_works{
-  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 0 auto;
+  max-width: 90%;
 }
 .bl_works_body{
   max-width: 100%;
@@ -338,7 +341,7 @@ li{
 .bl_works_inner{
   background-color: #FFB1D0;
   padding: 30px 0 20px 30px;
-  border-radius: 30px;
+  border-radius: 30px 0px 0px 30px;
 }
 .bl_works_ttl{
   color: #ffffff;
