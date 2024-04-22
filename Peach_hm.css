@@ -61,6 +61,9 @@ main {
   background-position: top;
   background-size: contain;
 }
+.move{
+  height: 108.65vh;
+}
 
 /*aboutus*/
 #bl_aboutus {
@@ -483,6 +486,7 @@ main {
   width: 12%;
   margin-right: 1%;
   background-image: url(./PeaCH_footer_logo.svg);
+  opacity: 0.6;
 }
 .bl_concardUnit__col3 > .bl_concard3 {
   width: 7.77175%;

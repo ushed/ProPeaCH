@@ -1,11 +1,11 @@
 @charset "utf-8";/*ver1.0.0 */
 @font-face {
-  font-family: "Main_Rg";
-  src: url("./LINESeedJP_OTF_Rg.woff") format("woff");
+    font-family: "Main_Rg";
+    src: url("./LINESeedJP_OTF_Rg.woff") format("woff");
 }
 @font-face {
-  font-family: "Main_Bd";
-  src: url("./LINESeedJP_OTF_Bd.woff") format("woff");
+    font-family: "Main_Bd";
+    src: url("./LINESeedJP_OTF_Bd.woff") format("woff");
 }
 /*========= bace_CSS ===============*/
 * {
@@ -85,7 +85,7 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-  
+
 .bl_Ccard {
     padding: 0;
 }
@@ -94,14 +94,14 @@ main{
     padding: 25px 36px 38px 36px;
     background-color: #ffffff;
 }
-  
+
 .bl_Ccard_main {
     padding-top: 30px;
     text-align: center;
 }
 .bl_works_imgWrapper{
-  max-width: 100%;
-  margin: 0%;
+    max-width: 100%;
+    margin: 0%;
 }
 
 .bl_cardUnit.bl_cardUnit__col3 {
@@ -122,70 +122,7 @@ main{
     padding: 30px 30px 0 30px;
     border-radius: 20px 0px 0px 0px;
 }
-.bl_contact {
-    background-color: #ffffff;
-    border-radius: 20px;
-}
-.bl_contact_ttl {
-    margin: 0px;
-    padding: 5px;
-}
-.bl_conttl_add {
-    margin: 0px;
-}
-.bl_contact_txt {
-    margin: 0;
-}
-.el_rdBtnArrowR {
-    display: inline-block;
-    position: relative;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    color: #ff66a2;
-    border: 2.5px solid #ff66a2;
-    font-size: 2em;
-}
-.el_rdBtnArrowR::after {
-    content: "→";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -45%);
-}
-.el_rdBtnArrowR:focus,
-.el_rdBtnArrowR:hover {
-    color: #ffb1d0;
-    border: 2.5px solid #ffb1d0;
-    transition: 0.15s;
-}
-  
-.bl_concard3_inner {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.bl_concardUnit {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 54px 69px 50px 69px;
-}
-.bl_concardUnit__col3 > .bl_concard {
-    width: 21.83020%;
-    margin-right: 5.84343%;
-    text-align: center;
-}
-.bl_concardUnit__col3 > .bl_concard2 {
-    width: 50.38588%;
-    margin-right: 12.01764%;
-}
-.bl_concardUnit__col3 > .bl_concard3 {
-    width: 7.77175%;
-    margin: 0;
-    position: relative;
-}
-  
+
 /*stage1*/
 .ly_footer_logoList {
     display: flex;
@@ -223,14 +160,14 @@ main{
     border: 0;
     border-top: 1px solid #ffffff;
 }
-  
+
 /*stage2*/
 .ly_footer_txtLinks {
     display: flex;
     overflow: hidden;
     color: #ffffff;
 }
-  
+
 .ly_footer_leftLink {
     margin: 0;
     font-size: 24px;
@@ -241,7 +178,7 @@ main{
 .ly_footer_leftLink > a:last-child {
     padding-right: 0px;
 }
-  
+
 .ly_footer_rightLink {
     margin: 0;
     padding-top: 10px;
