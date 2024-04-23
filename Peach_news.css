@@ -123,7 +123,7 @@ main{
     margin-left: 500px;
 }
 .el_Pagination_Item{
-      list-style: none;
+    list-style: none;
 }
 .el_Pagination_Item_Link {
     width: 45px;
@@ -144,12 +144,12 @@ main{
     width: 20px;
 }
 .el_Pagination_Item_Link.isActive {
-    background: #FFB1D0;
+    background: #ff66a2;
     color: #ffffff;
     pointer-events: none;
 }
 .el_Pagination_Item_Link:not(.isActive):hover {
-    background: #FFB1D0;
+    background: #ff66a2;
     color: #ffffff;
 }
 .el_Pagination > * + * {
@@ -203,7 +203,7 @@ main{
     border: 2.5px solid #ffb1d0;
     transition: 0.15s;
 }
-  
+
 .bl_concard3_inner {
     position: absolute;
     text-align: center;
@@ -229,7 +229,7 @@ main{
     margin: 0;
     position: relative;
 }
-  
+
 /*stage1*/
 .ly_footer_logoList {
     display: flex;
@@ -267,14 +267,14 @@ main{
     border: 0;
     border-top: 1px solid #ffffff;
 }
-  
+
 /*stage2*/
 .ly_footer_txtLinks {
     display: flex;
     overflow: hidden;
     color: #ffffff;
 }
-  
+
 .ly_footer_leftLink {
     margin: 0;
     font-size: 24px;
@@ -285,7 +285,7 @@ main{
 .ly_footer_leftLink > a:last-child {
     padding-right: 0px;
 }
-  
+
 .ly_footer_rightLink {
     margin: 0;
     padding-top: 10px;
